@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar color="primary">
+    <ion-title>
+          Admin Security Lock
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="goToProfile()">
+        <ion-icon name="person"></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <button ion-button large block round outline color="secondary" (click)="UpdateUnlockDoor()" (click)="unlock()" (click)="UnlockToast()">
+    <ion-icon name="md-unlock"> Unlock</ion-icon>
+  </button>
+
+  <button ion-button large block round outline color="danger" (click)="UpdateLockDoor()" (click)="lock()" (click)="LockToast()"> 
+    <ion-icon name="md-lock"> Lock</ion-icon>
+  </button>
+<!-- <img src="assets/img/lock.png" style="width : 50% ; height :25%" ng-click="UpdateUnlockDoor()" (click)="unlock()" (click)="UnlockToast()">
+-->
+  
+</ion-content>
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+page-login {
+  form {
+    margin-bottom: 32px;
+    button {
+      margin-top: 20px !important;
+    }
+  }
+  
+   
+  p {
+    font-size: 0.8em;
+    color: #d2d2d2;
+  }
+
+  ion-label {
+    margin-left: 5px;
+  }
+
+  ion-input {
+    padding: 5px;
+  }
+
+  .invalid {
+    border-bottom: 1px solid #FF6153;
+  }
+
+  .error-message .item-inner {
+    border-bottom: 0 !important;
+  }
+
+  img{
+    height: 25vh;
+    width: auto;
+    margin: auto;
+    display: block;
+  }
+
+}
+
+@font-face {
+  font-family: 'Humanst';
+  src: url('../assets/fonts/roboto-light.woff2') format('woff2'), url('../assets/fonts/roboto-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Humanst';
+}
+
